@@ -3,7 +3,7 @@ import requests
 from django.http import JsonResponse
 from django.views.decorators.csrf import csrf_exempt
 
-SENDER_CALLBACK_URL = "https://sender-service.onrender.com/api/ack/"
+SENDER_CALLBACK_URL = "https://sender-service-bmar.onrender.com/api/ack/"
 
 @csrf_exempt
 def receive_ping(request):
